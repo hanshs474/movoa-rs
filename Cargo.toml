@@ -1,0 +1,18 @@
+[package]
+name = "movoa"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "Unlimited AI video generator with sound: on paid plans the tenth take of a shot costs what the first did, and your first clip is free to make right now. Official Rust SDK for Movoa (movoa.ai): text to video and photo to video with sound."
+license = "MIT"
+authors = ["Movoa (https://movoa.ai)"]
+readme = "README.md"
+homepage = "https://movoa.ai/?utm_source=crates.io&utm_medium=package"
+repository = "https://github.com/hanshs474/movoa-rs"
+documentation = "https://docs.rs/movoa"
+keywords = ["video-generation", "text-to-video", "image-to-video", "ai", "movoa"]
+categories = ["api-bindings", "multimedia::video"]
+
+[dependencies]
+ureq = "2"
+serde_json = "1"
